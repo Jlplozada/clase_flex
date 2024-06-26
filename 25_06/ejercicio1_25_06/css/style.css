@@ -13,3 +13,20 @@ body{
     margin: 20px;
     padding: 20px;
 }
+__________________
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    align-self: center;
+    background-color: black;
+    width: 250px;
+    height: 250px;
+}
