@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <meta name="description" content="Hola este es un podisible texto de descricion de busqueda">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="">
+                <img src="logo.png" alt="logo">
+            </a>
+            <nav class="nav-content">
+               <a href="#inicio" class="enlaces">Inicio</a>
+               <a href="#" class="enlaces">Nosotros </a>
+               <a href="#" class="enlaces">Servicios</a>
+               <a href="#" class="enlaces">Galeria</a>
+               <a href="#" class="enlaces">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="inicio">
+            <div class="container">
+                <div>
+                    <h1>BIENVENIDOS AL DISEÑO WEB</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, qui.</p>
+                    <a href="">Aprende</a> 
+                </div>
+                <img src="nerd.png" alt="nerd">
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
