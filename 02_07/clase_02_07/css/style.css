@@ -40,6 +40,7 @@ header div{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    top: 0;
 }
 .contenedor{
     max-width: var(--max-wid);
@@ -78,6 +79,9 @@ section{
 .vh-100{
  height: calc(100vh -var(--nav-heigt));   
 }
+.text-center{
+    text-align: center;
+}
 .contenedor-textos{
     flex-basis: 45%;
 }
@@ -89,6 +93,7 @@ section{
     max-width: 20px 0;
     font-weight: 300;
     font-size: 1.2rem;
+    
 }
 .cta{
     display: inline-block;
@@ -98,9 +103,49 @@ section{
     font-weight: 700;
     padding: 16px 30px;
     border-radius: 30px;
+    border-radius: 10px;
 }
-nosotros{
+.cta--negro{
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+.nosotros{
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.servicios{
 
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card__item{
+    max-width: 350px;
+    width: 30%;
+    background-color: var(--white-color);
+    color: var(--second-color);
+    text-align: center;
+    padding: 40px 0;
+    border-radius:  10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.card__plan{
+    color: var(--second-color);
+    margin-bottom: 20px;
+
+}
+.card__precio{
+    font-size: 3rem;
+    color: var(--second-color);
+}
+.card__caracteristica{
+    color: var(--second-color);
+    padding-bottom: 20px;
+
+}
+.card__item--activo{
+    background-color: var(--main-color);
 }
