@@ -14,6 +14,10 @@
     --max-wid:1200px;
     --nav-heigt:70px;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 ::selection{
     /* seudo elementos */
     background-color: var(--second-color);
@@ -29,6 +33,8 @@ header{
     display: flex;
     background-color: var(--main-color);
     color: var(--second-color);
+    position: sticky;
+    top: 0;
 }
 header div{
     display: flex;
@@ -92,4 +98,9 @@ section{
     font-weight: 700;
     padding: 16px 30px;
     border-radius: 30px;
+}
+nosotros{
+    display: flex;
+    flex-direction: row;
+
 }
