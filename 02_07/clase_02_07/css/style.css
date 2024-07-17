@@ -53,7 +53,6 @@ nav{
     
 }
 .nav-container{
-
     display: flex;
     align-items: center;
 }
@@ -64,7 +63,7 @@ nav{
     margin-right: 20px;
 }
 .enlaces:hover{
-    align-items: center;
+
     background-color: var(--second-color);
     color: var(--second-color);
 }
@@ -151,4 +150,37 @@ section{
 .card__item--activo{
     background-color: var(--main-color);
 }
-
+/* -----------------------galeria---------------- */
+.galeria{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.img{
+    width: 30%;
+   height: 250px;
+   border-radius: 5px; 
+   margin-bottom: 30px;
+}
+.contacto{
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.input{
+    padding: 12px;
+    font-size: var(--fon-size);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    resize: none;
+}
