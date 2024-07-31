@@ -1,61 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url(variables.css);
+@import url(config.css);
+@import url(ayudas.css);
+@import url(header.css);
+@import url(inicio.css);
+@import url(nosotros.css);
+@import url(servicios.css); 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-:root{
-    /* custom propierty */
-    --main-color:#f6e232;
-    --second-color:#2a2929;
-    --white-color:#f2f2f2;
-    --fon-size:18px;
-    --max-wid:1200px;
-    --nav-heigt:70px;
-}
-html{
-    scroll-behavior: smooth;
-}
 
-::selection{
-    /* seudo elementos */
-    background-color: var(--second-color);
-    color: var(--second-color);
-
-}
-body{
-    background-color: var(--second-color);
-    color: var(--white-color);
-    font-family: "Monserrat";
-}
-header{
-    display: flex;
-    background-color: var(--main-color);
-    color: var(--second-color);
-    position: sticky;
-    top: 0;
-}
-header div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-}
-.contenedor{
-    max-width: var(--max-wid);
-    width: 100%;
-    margin: 0 auto;
-    
-}
-nav{
-    height: var(--nav-heigt);
-    
-}
-.nav-container{
-    display: flex;
-    align-items: center;
-}
 .enlaces{
     text-decoration: none;
     color: inherit;
